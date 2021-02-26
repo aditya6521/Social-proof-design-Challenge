@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+
+
+:root{
+  --primary-color:hsl(300, 43%, 22%);
+  --secondry-color:hsl(303, 10%, 53%);
+  --bg-star:hsl(300, 24%, 96%);
+  --verified:hsl(333, 80%, 67%);
+}
+
+body{
+  font-family: 'Spartan', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("images/bg-pattern-top-desktop.svg"),url("images/bg-pattern-bottom-desktop.svg");
+  background-position: left top,right bottom;
+  background-repeat: no-repeat;
+}
+.wrapper{
+  margin-top:5rem;
+  margin-bottom: 5rem;
+  margin-left: 30px;
+  margin-right: 10px;
+  max-width: 1080px;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.ratings_one{
+  display: flex;
+}
+.ratings_two{
+  display: flex;
+}
+.ratings_three{
+  display: flex;
+}
+.fixed{
+  display: block;
+  max-width: 600px;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+.list-non-bullet{ 
+  list-style: none;
+  margin:0px;
+  padding:0rem;
+}
+.list-inline{
+  display: inline;
+  margin:0;
+}
+.cards{
+  max-width:350px;
+}
+.title{
+  font-weight: 700;
+  color: var(--primary-color);
+  font-size: 35px;
+  line-height: 1;
+  margin: 0;
+}
+p{
+  font-size: 15px;
+  color:var(--secondry-color);
+}
+.ratings_text{
+  margin-left:20px;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+.star{
+  padding: 10px 15px;
+  background-color: var(--bg-star);
+  border-radius: 0.5rem;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.ratings{
+  display: block;
+ float: right;
+ text-align: center;
+}
+.container .float{
+  align-items: flex-end;
+}
+
+.cards{
+  padding: 1rem 1rem;
+  margin-right: 25px;
+  margin-top:25px;
+  background-color: var(--primary-color);
+ border-radius: 1rem;
+ font-size: 15px;
+ max-width: 300px;
+}
+.profile_img{
+  border-radius: 50%;
+  height:45px;
+  width:45px;
+  padding: 15px;
+}
+.name{
+  padding:24px;
+}
+.person-name{
+  font-weight: 700;
+  color:var(--bg-star);
+  margin-bottom:4px;
+}
+.verified{
+color:var(--verified);
+}
+profile_name_img{
+  display: block;
+}
